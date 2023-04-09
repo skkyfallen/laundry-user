@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 88px;
+  width: 100%;
+  background-color: #ec7406;
+}
+.search-field {
+  border: 1px solid #ec7406;
+  padding: 10px;
+  position: relative;
+  width: 672px;
+  height: 33px;
+  border-radius: 4px;
+}
+.search-field:focus {
+  outline: none;
+}
+.user-details a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 330px;
+  top: 20px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.user-details button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  position: relative;
+  left: 450px;
+  top: -16px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  height: 48px;
+  width: 241px;
+  border-radius: 80px;
+  padding: 12px 64px 12px 64px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #021c3e;
+}
+span {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 440px;
+  top: 23px;
+}
+.userName {
+  position: relative;
+  top: -23px;
+  left: 500px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.userEmail {
+  position: relative;
+  top: -23px;
+  left: 500px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+nav {
+  height: 40px;
+  border-bottom: 2px solid #ec7406;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}

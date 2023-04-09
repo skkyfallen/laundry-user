@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.image-container {
+  position: relative;
+  left: 750px;
+  top:30px;
+  width:100px;
+}
+.image-container img {
+  height: 223px;
+  width: 721px;
+  left: 417px;
+  top: 161px;
+  border-radius: 4px;
+}

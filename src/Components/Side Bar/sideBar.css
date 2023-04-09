@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.container {
+  width: 400px;
+  border-right: 2px solid #dde2e4;
+  height: 500px;
+  position: relative;
+  top: -150px;
+}
+.price {
+  margin-bottom: 70px;
+}
+.price h1 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  color: #252c32;
+}
+.price-field-container {
+  display: flex;
+  flex-direction: row;
+}
+.price-fields {
+  width: 132px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #dde2e4;
+  border-radius: 6px;
+  margin-right: 20px;
+  padding: 10px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  color: #9aa6ac;
+}
+.content-container {
+  position: relative;
+  left: 40px;
+  top: 130px;
+}
+.clothes h1 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  color: #252c32;
+}
+.check-container {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: space-around;
+  position: relative;
+  top: -50px;
+}
+.suits-label {
+  position: relative;
+  left: -155px;
+  top: 87px;
+}
+.linen-label {
+  position: relative;
+  left: -155px;
+  top: 93px;
+}
+.cotton-label {
+  position: relative;
+  left: -155px;
+  top: 99px;
+}
+.delicates-label {
+  position: relative;
+  left: -155px;
+  top: 105px;
+}
+.label-container {
+  display: flex;
+  position: relative;
+  left: 155px;
+  flex-direction: column;
+  justify-content: space-around;
+  top: -130px;
+}
+label {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  color: #252c32;
+}
+input [type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: red;
+}

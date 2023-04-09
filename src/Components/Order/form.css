@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.quantity-container {
+  position: relative;
+  top: -230px;
+  left: 70px;
+}
+.quantity-container h1 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #01112c;
+  position: relative;
+  top: -50px;
+  left: 100px;
+}
+.quantity-input {
+  height: 56px;
+  width: 100px;
+  position: relative;
+  left: 100px;
+  top: -23px;
+  padding: 10px;
+  appearance: none;
+  border-radius: 7px;
+}
+.quantity-input:focus {
+  appearance: none;
+}
+.quantity-button {
+  position: relative;
+  left: 300px;
+  top: -22px;
+  width: 547px;
+  height: 54px;
+  background: #ec7406;
+  border-radius: 8px;
+  border: none;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  /* base/white */
+
+  color: #ffffff;
+}
+.selectedOption-container {
+  z-index: 1;
+  position: relative;
+  top: -120px;
+}
+.selected-option-header {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #01112c;
+  position: relative;
+  left: 200px;
+  top: -300px;
+}
+.selected-option-container {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #01112c;
+  position: relative;
+  top: -320px;
+  left: 370px;
+}
+.select-tag-container {
+  position: relative;
+  top: -390px;
+  left: 1250px;
+}
+.cart-modal {
+  width: 601px;
+  background-color: #fdfdfd;
+  position: relative;
+  left: 1318px;
+  height: 1099px;
+}
+.cart-modal ul li {
+  list-style: none;
+}
+.cart-header {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: right;
+  color: #101010;
+  position: relative;
+  top: 30px;
+  left: -30px;
+}
+.close-cart-button {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ec7406;
+  border: none;
+  background-color: #fdfdfd;
+  position: relative;
+  left:20px
+}

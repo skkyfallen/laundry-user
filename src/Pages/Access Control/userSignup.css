@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container img {
+  width: 656px;
+  height: 735px;
+  position: relative;
+  top: 100px;
+}
+
+form {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form h1 {
+  position: relative;
+
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #18181b;
+}
+form p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  /* or 169% */
+
+  /* gray/600 */
+
+  color: #52525b;
+}
+.already-account {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #18181b;
+  position: relative;
+  top:150px;
+}
+form a{
+    color:#EC7406;
+}
+.signup-field {
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+  height: 55px;
+  width: 411px;
+  border-radius: 8px;
+  padding: 17px 16px 17px 20px;
+}
+.signup-field::placeholder {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #71717a;
+}
+label {
+  position: relative;
+  top: 100px;
+  left: -150px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height, or 169% */
+
+  display: flex;
+  align-items: center;
+
+  /* base/black */
+
+  color: #000000;
+}
+input[type="checkbox"] {
+  position: relative;
+  top: 100px;
+  margin-right: 10px;
+}
+.Signup-btn {
+  height: 54px;
+  width: 411px;
+  position: relative;
+  top: 120px;
+  background: #ec7406;
+  border-radius: 8px;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+}

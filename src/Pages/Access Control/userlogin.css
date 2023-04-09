@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.forgot-label-2 {
+  position: relative;
+  top: 122px;
+  left: 140px;
+}
+ main container a {
+  text-decoration: none;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: right;
+  color: #ec7406;
+}
+input[type=checkbox] {
+  position: relative;
+  top:80px;
+  left:-80px;
+}
