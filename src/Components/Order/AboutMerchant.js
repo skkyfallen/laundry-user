@@ -6,7 +6,7 @@ const AboutMerchant = () => {
   return (
     <>
       <div className="about-container">
-        <h1 className="about-merchant-header">Abott Cleaners</h1>
+
         <h2 className="product-description-header">Product Description</h2>
         <p className="about-merchant-description">
           It is a long established fact that a reader will be <br />

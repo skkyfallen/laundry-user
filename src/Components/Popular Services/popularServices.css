@@ -9,7 +9,7 @@ body {
 .popular-data-container {
   position: relative;
   left: 400px;
-  top: -350px;
+  top: -360px;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -28,7 +28,7 @@ body {
 }
 .popular-services-header {
   position: relative;
-  top: -400px;
+  top: -250px;
   left: 450px;
   font-family: "Archivo";
   font-style: normal;

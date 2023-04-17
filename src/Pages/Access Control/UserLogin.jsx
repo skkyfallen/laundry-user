@@ -5,19 +5,20 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { login } from "../../authSlice";
 import { useNavigate } from "react-router-dom";
-
+import { BeatLoader } from "react-spinners";
 import "./userlogin.css";
 const UserLogin = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-   
+const [loading,setLoading] =useState(false)
   const handleClick = (e) => {
     e.preventDefault();
+    setLoading(true)
     axios
       .post(
-        "https://api-laundry-marketplace.onrender.com/api/v1/auth/customer/login",
+        "https://laundry-marketplace-api-production.up.railway.app/api/v1/auth/customer/login",
         {
           email: email,
           password: password,
@@ -30,9 +31,11 @@ const UserLogin = () => {
         console.log(access_token);
         dispatch(login());
         navigate("/home");
+        
       })
       .catch((error) => {
         console.error(error.response);
+        alert("Email ALready Exists")
       });
   };
   return (
@@ -73,10 +76,10 @@ const UserLogin = () => {
           <label htmlFor="terms">Remember Me</label>
           <input type="checkbox" name="terms" />
           <button className="Signup-btn" onClick={handleClick}>
-            Sign In{" "}
+            { loading? <BeatLoader color="white" size={10} /> : "Login"}
           </button>
           <p className="already-account">
-            Already have an account? <a href="/">Login now</a>
+            Don't have an account? <a href="/signup">Sign Up</a>
           </p>
         </form>
         <img src={form_ig} alt="form_ig" className="form_ig" />

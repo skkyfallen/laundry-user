@@ -5,7 +5,7 @@
 }
 .quantity-container {
   position: relative;
-  top: -230px;
+  top: -100px;
   left: 70px;
 }
 .quantity-container h1 {
@@ -18,7 +18,7 @@
   align-items: flex-end;
   color: #01112c;
   position: relative;
-  top: -50px;
+  top: -40px;
   left: 100px;
 }
 .quantity-input {
@@ -71,7 +71,7 @@
   color: #01112c;
   position: relative;
   left: 200px;
-  top: -300px;
+  top: -200px;
 }
 .selected-option-container {
   font-family: "Archivo";
@@ -83,7 +83,7 @@
   align-items: flex-end;
   color: #01112c;
   position: relative;
-  top: -320px;
+  top: -220px;
   left: 370px;
 }
 .select-tag-container {
@@ -123,5 +123,62 @@
   border: none;
   background-color: #fdfdfd;
   position: relative;
-  left:20px
+  left: 20px;
+}
+.merchant-name {
+  position: relative;
+  left: 1250px;
+  top: -920px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #121212;
+  border-bottom: 3px solid #b1b1b1;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.merchant-info-container {
+  position: relative;
+  left: 1260px;
+  top: -550px;
+}
+.merchant-state {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #464646;
+  margin-bottom: 15px;
+}
+.merchant-address {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #464646;
+  margin-bottom: 15px;
+}
+.merchant-phone {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #464646;
+  margin-bottom: 15px;
+}
+.merchant-email {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #464646;
+  margin-bottom: 15px;
 }

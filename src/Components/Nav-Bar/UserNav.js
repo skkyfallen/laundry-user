@@ -30,7 +30,7 @@ const UserNav = () => {
   return (
     <>
       <header className="header">
-        <input type="search" className="search-field" />
+       
         <div className="user-details">
           {isAuthenticated ? (
             <>

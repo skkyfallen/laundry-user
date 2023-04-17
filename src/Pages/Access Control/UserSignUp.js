@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import "./userSignup.css";
 import form_ig from "../../Assets/form_ig.png";
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 const UserSignUp = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
@@ -11,22 +11,27 @@ const UserSignUp = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
-  const handleClick=(event)=>{
+  const handleClick = (event) => {
     event.preventDefault();
-    axios.post("https://api-laundry-marketplace.onrender.com/api/v1/auth/customer/signup",{
-    fullname:fullName,
-    email:email,
-    password:password,
-    phoneNumber:phone,
-    })
-    .then((response)=>{
-      console.log(response.data)
-      navigate("/login")
-    })
-    .catch((error)=>{
-console.log(error.response)
-    })
-  }
+    axios
+      .post(
+        "https://laundry-marketplace-api-production.up.railway.app/api/v1/auth/customer/signup",
+        {
+          fullname: fullName,
+          email: email,
+          password: password,
+          phoneNumber: phone,
+        }
+      )
+      .then((response) => {
+        console.log(response.data);
+        navigate("/login");
+      })
+      .catch((error) => {
+        console.log(error.response);
+        alert("Email Already Exists")
+      });
+  };
   return (
     <>
       <div className="main-container">
@@ -91,7 +96,9 @@ console.log(error.response)
           />
           <label htmlFor="terms">Terms and Conditions</label>
           <input type="checkbox" name="terms" />
-          <button className="Signup-btn" onClick={handleClick}>Sign Up </button>
+          <button className="Signup-btn" onClick={handleClick}>
+            Sign Up{" "}
+          </button>
           <p className="already-account">
             Already have an account? <a href="/">Login now</a>
           </p>

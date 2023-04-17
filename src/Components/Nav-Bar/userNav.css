@@ -68,7 +68,7 @@ span {
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  left: 440px;
+  left: 740px;
   top: 23px;
 }
 .userName {
@@ -85,7 +85,7 @@ span {
 .userEmail {
   position: relative;
   top: -23px;
-  left: 500px;
+  left: 800px;
   font-family: "Archivo";
   font-style: normal;
   font-weight: 400;
